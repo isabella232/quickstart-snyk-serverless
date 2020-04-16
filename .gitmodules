@@ -1,0 +1,8 @@
+[submodule "submodules/quickstart-trek10-serverless-enterprise-cicd"]
+	path = submodules/quickstart-trek10-serverless-enterprise-cicd
+	url = git@github.com:aws-quickstart/quickstart-trek10-serverless-enterprise-cicd.git
+	branch = master
+[submodule "submodules/quickstart-snyk-security"]
+	path = submodules/quickstart-snyk-security
+	url = git@github.com:aws-quickstart/quickstart-snyk-security.git
+	branch = master

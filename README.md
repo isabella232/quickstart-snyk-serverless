@@ -1,1 +1,1 @@
-# Project README
+# quickstart-snyk-serverless
