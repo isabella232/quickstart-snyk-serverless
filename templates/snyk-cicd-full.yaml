@@ -1,6 +1,6 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: Snyk integration for AWS Lambda with Serverless CICD Full Stack
+Description: Snyk integration for AWS Lambda with Serverless CICD Full Stack (qs-1qm9kh0m8)
 Outputs:
   SnykLambdaIntegrationRole:
     Description: Snyk Lambda Integration Role ARN
