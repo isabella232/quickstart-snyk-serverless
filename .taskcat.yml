@@ -17,7 +17,6 @@ project:
     - us-east-2
     - us-west-1
     - us-west-2
-  s3_bucket: ''
   s3_regional_buckets: true
   template: templates/snyk-cicd-full.yaml
 tests:
@@ -41,5 +40,4 @@ tests:
       - us-east-2
       - us-west-1
       - us-west-2
-    s3_bucket: ''
-    template: templates/snyk-cicd-child.yaml
+    template: templates/snyk-cicd-full.yaml
