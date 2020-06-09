@@ -1,6 +1,6 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: Snyk integration for AWS Lambda with Serverless CICD Child Accounts (qs-1qm9kh0m8)
+Description: Snyk integration for AWS Lambda with Serverless CICD Child Accounts. (qs-1qqfh4fnp)
 Outputs:
   SnykLambdaIntegrationRole:
     Description: Snyk Lambda Integration Role ARN
