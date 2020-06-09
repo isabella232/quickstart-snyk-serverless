@@ -10,6 +10,8 @@ Outputs:
     Value: 1.0.2
 Metadata:
   LICENSE: Apache License, Version 2.0
+  Documentation:
+    EntrypointName: "Snyk integration for AWS Lambda with Serverless CICD Child Accounts"
   AWS::CloudFormation::Interface:
     ParameterGroups:
       - Label:
