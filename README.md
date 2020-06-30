@@ -9,7 +9,7 @@ Following AWS best practices for isolating resources, this Quick Start requires 
 
 ![This Quick Start integrates Snyk with three AWS accounts](URL.png)
 
-*Figure 1: This Quick Start integrates Snyk with three AWS accounts*
+***Figure 1:** This Quick Start integrates Snyk with three AWS accounts*
 
 Additionally, this Quick Start deploys various AWS services and resources to create the serverless CI/CD environment, as detailed in the [Trek10 Serverless CI/CD Quick Start deployment guide](https://fwd.aws/53avp). Figure 1 shows Snyk integration with AWS Lambda. You may want to integrate additional services, depending on the workflow of your CI/CD pipeline.
 
@@ -19,13 +19,15 @@ You are responsible for the cost of the AWS services used while running this Qui
 
 Snyk, which is available in the AWS Marketplace as [Snyk: Developer-First Security](https://aws.amazon.com/marketplace/pp/B085VGM85Q?qid=1587078167615&sr=0-1&ref_=srh_res_product_title), is fulfilled as a SaaS offering. SaaS is a delivery model for software applications whereby the vendor hosts and operates the application over the internet. Customers pay to use the software without owning the underlying infrastructure. With SaaS contracts, customers pay for usage through their AWS bill.
 
+If you don't have a Snyk login, open the page for the [Snyk: Developer-First Security](https://aws.amazon.com/marketplace/pp/B085VGM85Q?qid=1587078167615&sr=0-1&ref_=srh_res_product_title) in AWS Marketplace, and choose **Continue to Subscribe.** Review the terms and conditions for software usage, and choose **Accept Terms**. A confirmation page loads, and an email confirmation is sent to the account owner. For detailed subscription instructions, see the [AWS Marketplace documentation](https://aws.amazon.com/marketplace/help/200799470).
+
 ### Architecture
 
 Figure 2 shows the architecture of the serverless CI/CD environment after you deploy this Quick Start, along with the integration of your AWS Lambda functions into your Snyk organization.
 
 ![Quick Start architecture for Snyk serverless CI/CD on AWS](URL.png)
 
-*Figure 2: Quick Start architecture for Snyk serverless CI/CD on AWS*
+***Figure 2:** Quick Start architecture for Snyk serverless CI/CD on AWS*
 
 For details on the resources deployed for the serverless CI/CD environment provided by Trek10, read the [Trek10 Serverless CI/CD Quick Start deployment guide](https://fwd.aws/53avp).
 
@@ -37,14 +39,12 @@ For details on the resources deployed for the serverless CI/CD environment provi
     2. Follow the instructions in the AWS documentation to [create three subaccounts](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_accounts_create.html): shared services, development, and production. If you have a large development organization, consider creating separate sets of these three subaccounts for each business unit or logical grouping of applications.
     3. Save the AWS account IDs for all three subaccounts (shared services, development, and production). You will use these in a later step. For additional information, see [Finding your AWS account ID in the AWS documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/console_account-alias.html).
 
-### Prepare your Snyk account
+### Get your Snyk Organization ID
 
 This Quick Start requires that you have a Snyk login or subscription.
 
-1. Sign in to your [Snyk account](https://snyk.io/).
-    1. If you do not have a Snyk login, open the page for the [Snyk: Developer-First Security](https://aws.amazon.com/marketplace/pp/B085VGM85Q?qid=1587078167615&sr=0-1&ref_=srh_res_product_title) in AWS Marketplace, and choose **Continue to Subscribe.** 
-    2. Review the terms and conditions for software usage, and choose **Accept Terms**. A confirmation page loads, and an email confirmation is sent to the account owner. For detailed subscription instructions, see the [AWS Marketplace documentation](https://aws.amazon.com/marketplace/help/200799470). 
-2. Select the **Settings** tab. Under **Organization ID**, choose **Copy**.
+1. Sign in to your [Snyk account](https://snyk.io/). 
+2. Select the **Settings** tab. Under **Organization ID**, choose **Copy**. Save this ID. You will use it in a later step.
 
 ### Enable cross-account access
 
