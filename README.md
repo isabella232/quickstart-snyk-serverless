@@ -49,14 +49,14 @@ This Quick Start requires that you have a Snyk login or subscription. If you don
 
 #### In the development subaccount:
 
-1. Sign in to the development subaccount as a user with IAM permission to create a CloudFormation stack and an IAM role.
+1. Sign in to the development subaccount as a user with IAM permission to create a CloudFormation stack and deploy IAM roles.
 2. [Deploy a Trek10 IAM role](https://fwd.aws/YrVVz).
 3. [Deploy a Snyk IAM role](https://fwd.aws/d9KN5).
 4. Sign out of the development subaccount.
 
 #### In the production subaccount:
 
-1. Sign in to the production subaccount as a user with IAM permission to create a CloudFormation stack and an IAM role. 
+1. Sign in to the production subaccount as a user with IAM permission to create a CloudFormation stack and deploy IAM roles. 
 2. [Deploy a Trek10 IAM role](https://fwd.aws/YrVVz).
 3. [Deploy a Snyk IAM role](https://fwd.aws/d9KN5).
 4. Sign out of the production subaccount.
