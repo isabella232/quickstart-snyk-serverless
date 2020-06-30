@@ -19,8 +19,6 @@ You are responsible for the cost of the AWS services used while running this Qui
 
 Snyk, which is available in the AWS Marketplace as [Snyk: Developer-First Security](https://aws.amazon.com/marketplace/pp/B085VGM85Q?qid=1587078167615&sr=0-1&ref_=srh_res_product_title), is fulfilled as a SaaS offering. SaaS is a delivery model for software applications whereby the vendor hosts and operates the application over the internet. Customers pay to use the software without owning the underlying infrastructure. With SaaS contracts, customers pay for usage through their AWS bill.
 
-If you don't have a Snyk login, open the page for the [Snyk: Developer-First Security](https://aws.amazon.com/marketplace/pp/B085VGM85Q?qid=1587078167615&sr=0-1&ref_=srh_res_product_title) in AWS Marketplace, and choose **Continue to Subscribe.** Review the terms and conditions for software usage, and choose **Accept Terms**. A confirmation page loads, and an email confirmation is sent to the account owner. For detailed subscription instructions, see the [AWS Marketplace documentation](https://aws.amazon.com/marketplace/help/200799470).
-
 ### Architecture
 
 Figure 2 shows the architecture of the serverless CI/CD environment after you deploy this Quick Start, along with the integration of your AWS Lambda functions into your Snyk organization.
@@ -41,7 +39,7 @@ For details on the resources deployed for the serverless CI/CD environment provi
 
 ### Get your Snyk Organization ID
 
-This Quick Start requires that you have a Snyk login or subscription.
+This Quick Start requires that you have a Snyk login or subscription. If you don't have a Snyk login, open the page for the [Snyk: Developer-First Security](https://aws.amazon.com/marketplace/pp/B085VGM85Q?qid=1587078167615&sr=0-1&ref_=srh_res_product_title) in AWS Marketplace, and choose **Continue to Subscribe.** Review the terms and conditions for software usage, and choose **Accept Terms**. A confirmation page loads, and an email confirmation is sent to the account owner. For detailed subscription instructions, see the [AWS Marketplace documentation](https://aws.amazon.com/marketplace/help/200799470).
 
 1. Sign in to your [Snyk account](https://snyk.io/). 
 2. Select the **Settings** tab. Under **Organization ID**, choose **Copy**. Save this ID. You will use it in a later step.
