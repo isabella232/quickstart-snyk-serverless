@@ -7,7 +7,7 @@ The Quick Start is automated by AWS CloudFormation templates that deploy a Snyk 
 
 Following AWS best practices for isolating resources, this Quick Start requires you to create three AWS subaccounts: shared services, development, and production. As Figure 1 shows, you deploy AWS Identity and Access Management (IAM) roles and policies to give your Snyk Organization ID access to the accounts. This access establishes integrations that secure your CI/CD pipelines so that you can use Snyk to perform security scans of your applications.
 
-![This Quick Start integrates Snyk with three AWS accounts](URL.png)
+![This Quick Start integrates Snyk with three AWS accounts](./images/Snyk-3-cross-acct-IAM-roles.png)
 
 ***Figure 1:** This Quick Start integrates Snyk with three AWS accounts*
 
@@ -23,7 +23,7 @@ Snyk, which is available in the AWS Marketplace as [Snyk: Developer-First Securi
 
 Figure 2 shows the architecture of the serverless CI/CD environment after you deploy this Quick Start, along with the integration of your AWS Lambda functions into your Snyk organization.
 
-![Quick Start architecture for Snyk serverless CI/CD on AWS](URL.png)
+![Quick Start architecture for Snyk serverless CI/CD on AWS](./images/Snyk-arch-diagram.png)
 
 ***Figure 2:** Quick Start architecture for Snyk serverless CI/CD on AWS*
 
