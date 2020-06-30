@@ -5,7 +5,7 @@ This Quick Start enables integration between your Snyk organization and deployed
 
 The Quick Start is automated by AWS CloudFormation templates that deploy a Snyk serverless integration in about 20 minutes in your AWS accounts.
 
-Following AWS best practices for isolating resources, this Quick Start requires you to create three AWS subaccounts: shared services, development, and production. As Figure 1 shows, you deploy AWS Identity and Access Management (IAM) roles and policies to give your Snyk Organization ID access to the accounts. This access establishes integrations that secure your CI/CD pipelines so that you can use Snyk to perform security scans of your applications.
+Following AWS best practices for isolating resources, this Quick Start requires you to create three AWS subaccounts: shared services, development, and production. As Figure 1 shows, you deploy AWS Identity and Access Management (IAM) roles and policies to give your Snyk organization ID access to the accounts. This access establishes integrations that secure your CI/CD pipelines so that you can use Snyk to perform security scans of your applications.
 
 <p align="center">
     <img src="./images/Snyk-3-cross-acct-IAM-roles.png">
@@ -38,7 +38,7 @@ For details on the resources deployed for the serverless CI/CD environment provi
     2. Follow the instructions in the AWS documentation to [create three subaccounts](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_accounts_create.html): shared services, development, and production. If you have a large development organization, consider creating separate sets of these three subaccounts for each business unit or logical grouping of applications.
     3. Save the AWS account IDs for all three subaccounts (shared services, development, and production). You will use these in a later step. For additional information, see [Finding your AWS account ID in the AWS documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/console_account-alias.html).
 
-### Get your Snyk Organization ID
+### Get your Snyk organization ID
 
 This Quick Start requires that you have a Snyk login or subscription. If you don't have a Snyk login, open the page for the [Snyk: Developer-First Security](https://aws.amazon.com/marketplace/pp/B085VGM85Q?qid=1587078167615&sr=0-1&ref_=srh_res_product_title) in AWS Marketplace, and choose **Continue to Subscribe.** Review the terms and conditions for software usage, and choose **Accept Terms**. A confirmation page loads, and an email confirmation is sent to the account owner. For detailed subscription instructions, see the [AWS Marketplace documentation](https://aws.amazon.com/marketplace/help/200799470).
 
