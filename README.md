@@ -7,9 +7,10 @@ The Quick Start is automated by AWS CloudFormation templates that deploy a Snyk 
 
 Following AWS best practices for isolating resources, this Quick Start requires you to create three AWS subaccounts: shared services, development, and production. As Figure 1 shows, you deploy AWS Identity and Access Management (IAM) roles and policies to give your Snyk Organization ID access to the accounts. This access establishes integrations that secure your CI/CD pipelines so that you can use Snyk to perform security scans of your applications.
 
-![This Quick Start integrates Snyk with three AWS accounts](./images/Snyk-3-cross-acct-IAM-roles.png)
-
-***Figure 1:** This Quick Start integrates Snyk with three AWS accounts*
+<p align="center">
+    <img src="./images/Snyk-3-cross-acct-IAM-roles.png">
+</p>
+<p align="center">Figure 1: This Quick Start integrates Snyk with three AWS accounts</p>
 
 Additionally, this Quick Start deploys various AWS services and resources to create the serverless CI/CD environment, as detailed in the [Trek10 Serverless CI/CD Quick Start deployment guide](https://fwd.aws/53avp). Figure 1 shows Snyk integration with AWS Lambda. You may want to integrate additional services, depending on the workflow of your CI/CD pipeline.
 
@@ -22,10 +23,10 @@ Snyk, which is available in the AWS Marketplace as [Snyk: Developer-First Securi
 ### Architecture
 
 Figure 2 shows the architecture of the serverless CI/CD environment after you deploy this Quick Start, along with the integration of your AWS Lambda functions into your Snyk organization.
-
-![Quick Start architecture for Snyk serverless CI/CD on AWS](./images/Snyk-arch-diagram.png)
-
-***Figure 2:** Quick Start architecture for Snyk serverless CI/CD on AWS*
+<p align="center">
+    <img src="./images/Snyk-arch-diagram.png">
+</p>
+<p align="center">Figure 2: Quick Start architecture for Snyk serverless CI/CD on AWS</p>
 
 For details on the resources deployed for the serverless CI/CD environment provided by Trek10, read the [Trek10 Serverless CI/CD Quick Start deployment guide](https://fwd.aws/53avp).
 
